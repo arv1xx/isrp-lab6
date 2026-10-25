@@ -1,0 +1,132 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="R1pd6mM8hOFpmvWP02b7">
+    <mxGraphModel dx="1704" dy="951" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Cz-u8K5qxiqTU0R656cm-25" edge="1" parent="1" source="Cz-u8K5qxiqTU0R656cm-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;" target="Cz-u8K5qxiqTU0R656cm-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz-u8K5qxiqTU0R656cm-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Сотрудник" vertex="1">
+          <mxGeometry height="120" width="160" x="80" y="121" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz-u8K5qxiqTU0R656cm-2" parent="Cz-u8K5qxiqTU0R656cm-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;- id: int&lt;/div&gt;&lt;div&gt;- имя: String&lt;/div&gt;&lt;div&gt;- роль: String&lt;/div&gt;" vertex="1">
+          <mxGeometry height="54" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz-u8K5qxiqTU0R656cm-3" parent="Cz-u8K5qxiqTU0R656cm-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz-u8K5qxiqTU0R656cm-4" parent="Cz-u8K5qxiqTU0R656cm-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ запроситьБронь(): void" vertex="1">
+          <mxGeometry height="32" width="160" y="88" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz-u8K5qxiqTU0R656cm-26" edge="1" parent="1" source="Cz-u8K5qxiqTU0R656cm-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;" target="Cz-u8K5qxiqTU0R656cm-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz-u8K5qxiqTU0R656cm-6" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Аудитория" vertex="1">
+          <mxGeometry height="130" width="196" x="570" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz-u8K5qxiqTU0R656cm-7" parent="Cz-u8K5qxiqTU0R656cm-6" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;- номер: String&lt;/div&gt;&lt;div&gt;- вместимость: int&lt;/div&gt;&lt;div&gt;- корпус: String&lt;/div&gt;" vertex="1">
+          <mxGeometry height="54" width="196" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz-u8K5qxiqTU0R656cm-8" parent="Cz-u8K5qxiqTU0R656cm-6" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="8" width="196" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz-u8K5qxiqTU0R656cm-9" parent="Cz-u8K5qxiqTU0R656cm-6" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+ свободна(начало, конец): bool&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;+ получитьНомер(): String&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="42" width="196" y="88" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz-u8K5qxiqTU0R656cm-10" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Бронь" vertex="1">
+          <mxGeometry height="160" width="220" x="310" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz-u8K5qxiqTU0R656cm-11" parent="Cz-u8K5qxiqTU0R656cm-10" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;- id: int&lt;/div&gt;&lt;div&gt;- начало: DateTime&lt;/div&gt;&lt;div&gt;- конец: DateTime&lt;/div&gt;&lt;div&gt;- цель: String&lt;/div&gt;" vertex="1">
+          <mxGeometry height="69" width="220" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz-u8K5qxiqTU0R656cm-12" parent="Cz-u8K5qxiqTU0R656cm-10" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="8" width="220" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz-u8K5qxiqTU0R656cm-13" parent="Cz-u8K5qxiqTU0R656cm-10" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ пересекаетсяС(другая: Бронь): bool&lt;/div&gt;&lt;div&gt;+ отменить(): void&lt;/div&gt;" vertex="1">
+          <mxGeometry height="57" width="220" y="103" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz-u8K5qxiqTU0R656cm-27" edge="1" parent="1" source="Cz-u8K5qxiqTU0R656cm-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;" target="Cz-u8K5qxiqTU0R656cm-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz-u8K5qxiqTU0R656cm-14" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Расписание" vertex="1">
+          <mxGeometry height="128" width="250" x="540" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz-u8K5qxiqTU0R656cm-15" parent="Cz-u8K5qxiqTU0R656cm-14" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;- период: String&lt;/div&gt;&lt;div&gt;- датаОбновления: DateTime&lt;/div&gt;&lt;div&gt;- аудитории: List&lt;/div&gt;" vertex="1">
+          <mxGeometry height="64" width="250" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz-u8K5qxiqTU0R656cm-16" parent="Cz-u8K5qxiqTU0R656cm-14" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="8" width="250" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz-u8K5qxiqTU0R656cm-17" parent="Cz-u8K5qxiqTU0R656cm-14" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+получитьЗанятость(начало, конец): List" vertex="1">
+          <mxGeometry height="30" width="250" y="98" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz-u8K5qxiqTU0R656cm-18" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="СервисБронирования" vertex="1">
+          <mxGeometry height="140" width="270" x="10" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz-u8K5qxiqTU0R656cm-19" parent="Cz-u8K5qxiqTU0R656cm-18" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;- брони: List&lt;/div&gt;&lt;div&gt;- версия: String&lt;/div&gt;&lt;div&gt;- правила: String&lt;/div&gt;" vertex="1">
+          <mxGeometry height="64" width="270" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz-u8K5qxiqTU0R656cm-20" parent="Cz-u8K5qxiqTU0R656cm-18" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="8" width="270" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz-u8K5qxiqTU0R656cm-21" parent="Cz-u8K5qxiqTU0R656cm-18" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+найтиСвободные(начало, конец): List&lt;/div&gt;&lt;div&gt;+создатьБронь(аудитория, сотрудник): Бронь&lt;/div&gt;" vertex="1">
+          <mxGeometry height="42" width="270" y="98" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz-u8K5qxiqTU0R656cm-28" edge="1" parent="1" source="Cz-u8K5qxiqTU0R656cm-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" target="Cz-u8K5qxiqTU0R656cm-10">
+          <mxGeometry relative="1" x="-0.2699" as="geometry">
+            <mxPoint x="290" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cz-u8K5qxiqTU0R656cm-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="230" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz-u8K5qxiqTU0R656cm-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="0..*" vertex="1">
+          <mxGeometry height="30" width="60" x="290" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz-u8K5qxiqTU0R656cm-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="530" y="232" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz-u8K5qxiqTU0R656cm-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="0..*" vertex="1">
+          <mxGeometry height="30" width="60" x="490" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz-u8K5qxiqTU0R656cm-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="650" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz-u8K5qxiqTU0R656cm-34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="0..*" vertex="1">
+          <mxGeometry height="30" width="60" x="650" y="262" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz-u8K5qxiqTU0R656cm-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="240" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz-u8K5qxiqTU0R656cm-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="0..*" vertex="1">
+          <mxGeometry height="30" width="60" x="270" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz-u8K5qxiqTU0R656cm-39" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="ХранилищеБроней" vertex="1">
+          <mxGeometry height="129" width="196" x="172" y="660.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz-u8K5qxiqTU0R656cm-40" parent="Cz-u8K5qxiqTU0R656cm-39" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;p&gt;- брони: List&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="47.5" width="196" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz-u8K5qxiqTU0R656cm-41" parent="Cz-u8K5qxiqTU0R656cm-39" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="8" width="196" y="73.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz-u8K5qxiqTU0R656cm-42" parent="Cz-u8K5qxiqTU0R656cm-39" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;p&gt;+ сохранить(бронь: Бронь): bool&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&lt;p&gt;&lt;/p&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="47.5" width="196" y="81.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz-u8K5qxiqTU0R656cm-47" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="СервисУведомлений" vertex="1">
+          <mxGeometry height="150" width="220" x="470" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz-u8K5qxiqTU0R656cm-48" parent="Cz-u8K5qxiqTU0R656cm-47" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;p&gt;- очередь: List&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="54" width="220" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz-u8K5qxiqTU0R656cm-49" parent="Cz-u8K5qxiqTU0R656cm-47" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="8" width="220" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Cz-u8K5qxiqTU0R656cm-50" parent="Cz-u8K5qxiqTU0R656cm-47" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;p&gt;+ отправить(сообщение: String): bool&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="62" width="220" y="88" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
